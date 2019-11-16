@@ -28,9 +28,9 @@ export default{
   },
   components: {
     'Home': Home,
-    'Editor': Editor
+    'Editor': Editor,
   },
-};
+}
 </script>
 
 <style lang="scss">

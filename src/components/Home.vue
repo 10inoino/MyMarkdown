@@ -10,7 +10,7 @@ export default {
     data() {
         return {
             msg: "Welcome to MyMarkdown"
-        };
+        }
     },
     methods: {
         googleLogin: function() {
@@ -18,7 +18,7 @@ export default {
             firebase.auth().signInWithRedirect(new firebase.auth.GoogleAuthProvider());
         }
     }
-};
+}
 </script>
 
 <style lang="scss">
